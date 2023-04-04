@@ -6,8 +6,9 @@ const list = ['Pane', 'Formaggio', 'Yogurt', 'Pomodori','Nutella'];
 
 let i = 0;
 
-while (list[i]) {
+while (i < list.length) {
     
     console.log(i+1 + '.' + list[i]);
     i++;
+
 };
